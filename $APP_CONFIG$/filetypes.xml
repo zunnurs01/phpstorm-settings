@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <removed_mapping ext="htm" approved="true" type="HTML" />
+      <mapping ext="htm" type="Twig" />
+      <removed_mapping ext="htm" approved="true" type="HTML" />
+      <removed_mapping pattern=".htm" approved="true" type="Twig" />
+    </extensionMap>
+  </component>
+</application>

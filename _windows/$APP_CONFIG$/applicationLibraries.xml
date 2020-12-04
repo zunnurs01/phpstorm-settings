@@ -1,0 +1,15 @@
+<application>
+  <component name="libraryTable">
+    <library name="profile" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
