@@ -5,8 +5,9 @@
     <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isWizardShown" value="true" />
-    <option name="accentColor" value="ffd866" />
-    <option name="selectedTheme" value="MONOKAI" />
+    <option name="pristineConfig" value="false" />
+    <option name="accentColor" value="74a0f1" />
+    <option name="selectedTheme" value="MOONLIGHT" />
     <option name="userId" value="79baa4cf:17563e6e1bf:-8000" />
     <option name="version" value="5.5.0" />
   </component>
