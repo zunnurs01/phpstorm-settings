@@ -4,6 +4,10 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="Console.TableResult.DeleteRows" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
