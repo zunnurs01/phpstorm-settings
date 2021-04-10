@@ -7,6 +7,11 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="ApexOfflineDebuggerConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Apex Offline Debugger" pluginName="Illuminated Cloud 2" pluginId="com.illuminatedcloud2.intellij" />
+                    </value>
+                  </entry>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
@@ -30,6 +35,26 @@
                   <entry key="DatabaseScript">
                     <value>
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="ErlangApplicationRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Application" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="ErlangConsoleRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Console" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="ErlangRemoteDebugRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Remote Node" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="ErlangUnitRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Eunit" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
                     </value>
                   </entry>
                   <entry key="FirefoxRemoteDebugType">
@@ -117,6 +142,16 @@
                       <FeaturePluginData displayName="React Native" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="RebarEunitRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Rebar Eunit" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="RebarRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Rebar" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
                   <entry key="ShConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" bundled="true" />
@@ -140,6 +175,11 @@
                   <entry key="XSLT">
                     <value>
                       <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="com.illuminatedcloud.intellij">
+                    <value>
+                      <FeaturePluginData displayName="Apex Unit Tests" pluginName="Illuminated Cloud 2" pluginId="com.illuminatedcloud2.intellij" />
                     </value>
                   </entry>
                   <entry key="js.build_tools.grunt">
@@ -169,7 +209,17 @@
         </entry>
         <entry key="com.intellij.facetType">
           <value>
-            <FeaturePluginsList />
+            <FeaturePluginsList>
+              <option name="featureMap">
+                <map>
+                  <entry key="IlluminatedCloud">
+                    <value>
+                      <FeaturePluginData displayName="Illuminated Cloud" pluginName="Illuminated Cloud 2" pluginId="com.illuminatedcloud2.intellij" />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FeaturePluginsList>
           </value>
         </entry>
       </map>
