@@ -1,10 +1,10 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <removed_mapping ext="app" type="Erlang/OTP app" />
+      <mapping ext="app" type="PLAIN_TEXT" />
       <mapping pattern="our-story" type="Twig" />
       <mapping ext="htm" type="Twig" />
-      <mapping ext="md" type="XML" />
+      <removed_mapping ext="app" approved="true" type="Erlang/OTP app" />
       <removed_mapping ext="htm" approved="true" type="HTML" />
       <removed_mapping ext="md" approved="true" type="Markdown" />
       <removed_mapping ext="permissionset" approved="true" type="XML" />
