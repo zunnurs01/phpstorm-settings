@@ -1,0 +1,221 @@
+<templateSet group="Twig - OctoberCMS">
+  <template name="iscripts" value="{% put scripts %}&#10;    &lt;script&gt;&#10;    $END$&#10;    &lt;/script&gt;&#10;{% endput %}&#10;" description="inject: scripts" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="istyles" value="{% put styles %}&#10;    &lt;style&gt;&#10;    $END$&#10;    &lt;/style&gt;&#10;{% endput %}&#10;" description="inject: styles" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="cjs" value="&lt;script src=&quot;{{ [&#10;    '@jquery',&#10;    '@framework',&#10;    '@framework.extras',&#10;    '$END$'&#10;] | theme }}&quot;&gt;&lt;/script&gt;" description="template: combining js file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="ccss" value="&lt;link href=&quot;{{ [&#10;    '$STUFF$',&#10;    '$MORESTUFF$'&#10;] | theme }}&quot; rel=&quot;stylesheet&quot;&gt;" description="template: combining css file" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORESTUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="partial" value="{% partial '$END$' %}" description="partial" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="page" value="{% page %}" description="page" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="content" value="{% content '$END$' %}" description="content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="comp" value="{% component '$END$' %}" description="component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="ph" value="{% placeholder $END$ %}" description="placeholder" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="iph" value="{% put $STUFF$ %}&#10;    $MORESTUFF$&#10;{% endput %}" description="inject: placeholder variable" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <variable name="MORESTUFF" expression="" defaultValue="&quot;your code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="phd" value="{% placeholder $STUFF$ default %}&#10;    $END$&#10;{% endplaceholder %}" description="placeholder + default" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="iphd" value="{% put $VAR$ %}&#10;    $STUFF$&#10;    {% default %}&#10;{% endput %}" description="inject: placeholder variable + default" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <variable name="STUFF" expression="" defaultValue="&quot;your code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="scripts" value="{% scripts %}" description="{% scripts %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="styles" value="{% styles %}" description="{% styles %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="verb" value="{% verbatim %}&#10;    $STUFF$&#10;{% endverbatim %}" description="verbatim...endverbatim" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="&quot;your code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="macro" value="{% macro $STUFF$($MORESTUFF$) %}&#10;    $END$&#10;{% endmacro $STUFF$ %}" description="macro...endmacro" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="&quot;function name&quot;" alwaysStopAt="true" />
+    <variable name="MORESTUFF" expression="" defaultValue="&quot;parameter&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="flash" value="{% flash %}&#10;   $END$&#10;{% endflash %}" description="flash...endflash" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="for" value="{% for $STUFF$ in $MORESTUFF$ %}&#10;    $END$&#10;{% endfor %}" description="for...endfor" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORESTUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="forelse" value="{% for $STUFF$ in $MORESTUFF$ %}&#10;    $MORESTUFF1$&#10;{% else %}&#10;    $END$&#10;{% endfor %}" description="for...else...endfor" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORESTUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORESTUFF1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="if" value="{% if $CONDITION$ %}&#10;    $END$&#10;{% endif %}" description="if...endif" toReformat="true" toShortenFQNames="false">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="{% if $CONDITION$ %}&#10;&#9;$STUFF$&#10;{% else %}&#10;&#9;$MORESTUFF$&#10;{% endif %}" description="if...else...endif" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <variable name="STUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORESTUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="vpg" value="{{ this.page.$VAR$ }}" description="{{ this.page. }}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="vlo" value="{{ this.layout.$VAR$ }}" description="{{ this.layout. }}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="vth" value="{{ this.theme.$VAR$ }}" description="{{ this.theme. }}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="vpm" value="{{ this.param.$VAR$ }}" description="{{ this.param. }}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="vct" value="{{ this.controller.$VAR$ }}" description="{{ this.controller. }}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="venv" value="{{ this.environment.$VAR$ }}" description="{{ this.environment. }}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="vs" value="{{ this.session.$VAR$ }}" description="{{ this.session. }}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|app" value="{{ '$END$' | app }}" description="{{ '...' | app }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|page" value="{{ '$END$' | page }}" description="{{ '...' | page }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|theme" value="{{ 'assets/$END$' | theme }}" description="{{ '...' | theme }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|media" value="{{ '$END$' | page }}" description="{{ '...' | media }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|resize" value="{{ '$END$' | $STUFF$ | resize($VAR1$, $VAR2$) }}" description="{{ '...' | resize }}" toReformat="false" toShortenFQNames="true">
+    <variable name="STUFF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|iw" value="{{ '$END$' | page }}" description="{{ '...' | imageWidth }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|ih" value="{{ '$END$' | imageHeight }}" description="{{ '...' | imageHeight }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|md" value="{{ '$END$' | md }}" description="{{ '...' | md }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|raw" value="{{ '$END$' | raw }}" description="{{ '...' | raw }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="|default" value="{{ '$END$' | default }}" description="{{ '...' | default }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
