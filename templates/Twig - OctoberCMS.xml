@@ -165,7 +165,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|app" value="{{ '$END$' | app }}" description="{{ '...' | app }}" toReformat="false" toShortenFQNames="true">
+  <template name="{{app}}" value="{{ '$END$' | app }}" description="{{ '...' | app }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
