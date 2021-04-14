@@ -165,27 +165,27 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~app" value="{{ '$END$' | app }}" description="{{ '...' | app }}" toReformat="false" toShortenFQNames="true">
+  <template name="|app" value="{{ '$END$' | app }}" description="{{ '...' | app }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~p" value="{{ '$END$' | page }}" description="{{ '...' | page }}" toReformat="false" toShortenFQNames="true">
+  <template name="|p" value="{{ '$END$' | page }}" description="{{ '...' | page }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~th" value="{{ 'assets/$END$' | theme }}" description="{{ '...' | theme }}" toReformat="false" toShortenFQNames="true">
+  <template name="|th" value="{{ 'assets/$END$' | theme }}" description="{{ '...' | theme }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~m" value="{{ '$END$' | page }}" description="{{ '...' | media }}" toReformat="false" toShortenFQNames="true">
+  <template name="|m" value="{{ '$END$' | page }}" description="{{ '...' | media }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~rs" value="{{ '$STUFF$' | $MORESTUFF$ | resize($VAR1$, $VAR2$) }}" description="{{ '...' | resize }}" toReformat="false" toShortenFQNames="true">
+  <template name="|rs" value="{{ '$STUFF$' | $MORESTUFF$ | resize($VAR1$, $VAR2$) }}" description="{{ '...' | resize }}" toReformat="false" toShortenFQNames="true">
     <variable name="STUFF" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
     <variable name="MORESTUFF" expression="" defaultValue="&quot;media/theme&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;width&quot;" alwaysStopAt="true" />
@@ -194,27 +194,27 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~iw" value="{{ '$END$' | page }}" description="{{ '...' | imageWidth }}" toReformat="false" toShortenFQNames="true">
+  <template name="|iw" value="{{ '$END$' | page }}" description="{{ '...' | imageWidth }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~ih" value="{{ '$END$' | imageHeight }}" description="{{ '...' | imageHeight }}" toReformat="false" toShortenFQNames="true">
+  <template name="|ih" value="{{ '$END$' | imageHeight }}" description="{{ '...' | imageHeight }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~md" value="{{ '$END$' | md }}" description="{{ '...' | md }}" toReformat="false" toShortenFQNames="true">
+  <template name="|md" value="{{ '$END$' | md }}" description="{{ '...' | md }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~raw" value="{{ '$END$' | raw }}" description="{{ '...' | raw }}" toReformat="false" toShortenFQNames="true">
+  <template name="|raw" value="{{ '$END$' | raw }}" description="{{ '...' | raw }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="~d" value="{{ '$END$' | default }}" description="{{ '...' | default }}" toReformat="false" toShortenFQNames="true">
+  <template name="|d" value="{{ '$END$' | default }}" description="{{ '...' | default }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
