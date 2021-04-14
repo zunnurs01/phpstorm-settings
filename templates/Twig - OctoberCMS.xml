@@ -123,69 +123,69 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="thispage" value="{{ this.page.$VAR$ }}" description="{{ this.page... }}" toReformat="false" toShortenFQNames="true">
+  <template name="tpg" value="{{ this.page.$VAR$ }}" description="{{ this.page... }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="thislayout" value="{{ this.layout.$VAR$ }}" description="{{ this.layout... }}" toReformat="false" toShortenFQNames="true">
+  <template name="tl" value="{{ this.layout.$VAR$ }}" description="{{ this.layout... }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="thistheme" value="{{ this.theme.$VAR$ }}" description="{{ this.theme... }}" toReformat="false" toShortenFQNames="true">
+  <template name="tt" value="{{ this.theme.$VAR$ }}" description="{{ this.theme... }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="thisparam" value="{{ this.param.$VAR$ }}" description="{{ this.param... }}" toReformat="false" toShortenFQNames="true">
+  <template name="tpr" value="{{ this.param.$VAR$ }}" description="{{ this.param... }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="thiscont" value="{{ this.controller.$VAR$ }}" description="{{ this.controller. }}" toReformat="false" toShortenFQNames="true">
+  <template name="tc" value="{{ this.controller.$VAR$ }}" description="{{ this.controller. }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="thisenv" value="{{ this.environment.$VAR$ }}" description="{{ this.environment. }}" toReformat="false" toShortenFQNames="true">
+  <template name="te" value="{{ this.environment.$VAR$ }}" description="{{ this.environment. }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="thissession" value="{{ this.session.$VAR$ }}" description="{{ this.session... }}" toReformat="false" toShortenFQNames="true">
+  <template name="ts" value="{{ this.session.$VAR$ }}" description="{{ this.session... }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|app" value="{{ '$END$' | app }}" description="{{ '...' | app }}" toReformat="false" toShortenFQNames="true">
+  <template name="~app" value="{{ '$END$' | app }}" description="{{ '...' | app }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|page" value="{{ '$END$' | page }}" description="{{ '...' | page }}" toReformat="false" toShortenFQNames="true">
+  <template name="~p" value="{{ '$END$' | page }}" description="{{ '...' | page }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|theme" value="{{ 'assets/$END$' | theme }}" description="{{ '...' | theme }}" toReformat="false" toShortenFQNames="true">
+  <template name="~th" value="{{ 'assets/$END$' | theme }}" description="{{ '...' | theme }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|media" value="{{ '$END$' | page }}" description="{{ '...' | media }}" toReformat="false" toShortenFQNames="true">
+  <template name="~m" value="{{ '$END$' | page }}" description="{{ '...' | media }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|resize" value="{{ '$STUFF$' | $MORESTUFF$ | resize($VAR1$, $VAR2$) }}" description="{{ '...' | resize }}" toReformat="false" toShortenFQNames="true">
+  <template name="~rs" value="{{ '$STUFF$' | $MORESTUFF$ | resize($VAR1$, $VAR2$) }}" description="{{ '...' | resize }}" toReformat="false" toShortenFQNames="true">
     <variable name="STUFF" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
     <variable name="MORESTUFF" expression="" defaultValue="&quot;media/theme&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;width&quot;" alwaysStopAt="true" />
@@ -194,27 +194,27 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|iw" value="{{ '$END$' | page }}" description="{{ '...' | imageWidth }}" toReformat="false" toShortenFQNames="true">
+  <template name="~iw" value="{{ '$END$' | page }}" description="{{ '...' | imageWidth }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|ih" value="{{ '$END$' | imageHeight }}" description="{{ '...' | imageHeight }}" toReformat="false" toShortenFQNames="true">
+  <template name="~ih" value="{{ '$END$' | imageHeight }}" description="{{ '...' | imageHeight }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|md" value="{{ '$END$' | md }}" description="{{ '...' | md }}" toReformat="false" toShortenFQNames="true">
+  <template name="~md" value="{{ '$END$' | md }}" description="{{ '...' | md }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|raw" value="{{ '$END$' | raw }}" description="{{ '...' | raw }}" toReformat="false" toShortenFQNames="true">
+  <template name="~raw" value="{{ '$END$' | raw }}" description="{{ '...' | raw }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="|default" value="{{ '$END$' | default }}" description="{{ '...' | default }}" toReformat="false" toShortenFQNames="true">
+  <template name="~d" value="{{ '$END$' | default }}" description="{{ '...' | default }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
@@ -224,12 +224,12 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="strcamel" value="{{ str_camel($END$) }}" description="{{ str_camel(...) }}  - helloWorld" toReformat="false" toShortenFQNames="true">
+  <template name="strc" value="{{ str_camel($END$) }}" description="{{ str_camel(...) }}  - helloWorld" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="strlimit" value="{{ str_limit($VAR1$), $VAR2$, '$VAR3$'  }}" description="{{ str_limit(...) }}" toReformat="false" toShortenFQNames="true">
+  <template name="strl" value="{{ str_limit($VAR1$), $VAR2$, '$VAR3$'  }}" description="{{ str_limit(...) }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="&quot;lorem ipsum&quot;" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="&quot;...Read More&quot;" alwaysStopAt="true" />
@@ -237,7 +237,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="strwords" value="{{ str_words($VAR1$), $VAR2$, '$VAR3$'  }}" description="{{ str_words(...) }}" toReformat="false" toShortenFQNames="true">
+  <template name="strw" value="{{ str_words($VAR1$), $VAR2$, '$VAR3$'  }}" description="{{ str_words(...) }}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
@@ -245,24 +245,24 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="strstudly" value="{{ str_studly($END$) }}" description="{{ str_studly(...) }} - HelloWorld" toReformat="false" toShortenFQNames="true">
+  <template name="strst" value="{{ str_studly($END$) }}" description="{{ str_studly(...) }} - HelloWorld" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="strsnake" value="{{ str_snake($END$) }}" description="{{ str_snake(...) }} - hello_world" toReformat="false" toShortenFQNames="true">
+  <template name="strsn" value="{{ str_snake($END$) }}" description="{{ str_snake(...) }} - hello_world" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="strsnake2" value="{{ str_snake($STUFF$), '$MORESTUFF$' }}" description="{{ str_snake(...), '...' }} - hello_world" toReformat="false" toShortenFQNames="true">
+  <template name="strsn2" value="{{ str_snake($STUFF$), '$MORESTUFF$' }}" description="{{ str_snake(...), '...' }} - hello_world" toReformat="false" toShortenFQNames="true">
     <variable name="STUFF" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
     <variable name="MORESTUFF" expression="" defaultValue="&quot;delimiter&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="strplural" value="{{ str_plural($VAR1$) }}" description="{{ str_plural(...) }}  worlds" toReformat="false" toShortenFQNames="true">
+  <template name="strp" value="{{ str_plural($VAR1$) }}" description="{{ str_plural(...) }}  worlds" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="&quot;lorem ipsum&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
@@ -283,29 +283,29 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="htmlstrip" value="{{ html_strip('$END$') }}" description="{{ html_strip('...') }}" toReformat="false" toShortenFQNames="true">
+  <template name="hs" value="{{ html_strip('$END$') }}" description="{{ html_strip('...') }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="htmllimit" value="{{ html_limit('$var1$', $var2$) }}" description="{{ html_limit('...', ...) }}" toReformat="false" toShortenFQNames="true">
+  <template name="hl" value="{{ html_limit('$var1$', $var2$) }}" description="{{ html_limit('...', ...) }}" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="&quot;lorem ipsum&quot;" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="htmlemail" value="{{ html_email('$END$') }}" description="{{ html_email('...') }}" toReformat="false" toShortenFQNames="true">
+  <template name="he" value="{{ html_email('$END$') }}" description="{{ html_email('...') }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="htmlclean" value="{{ html_clean('$END$') }}" description="{{ html_clean('...') }}" toReformat="false" toShortenFQNames="true">
+  <template name="hc" value="{{ html_clean('$END$') }}" description="{{ html_clean('...') }}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="ifshort" value="{{ $CONDITION$ ? '$VAR2$' : '$VAR3$' }}" description="{{ condition ? 'yes' : 'no' }}" toReformat="false" toShortenFQNames="true">
+  <template name="ifs" value="{{ $CONDITION$ ? '$VAR2$' : '$VAR3$' }}" description="{{ condition ? 'yes' : 'no' }}" toReformat="false" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="&quot;yes&quot;" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="&quot;no&quot;" alwaysStopAt="true" />
