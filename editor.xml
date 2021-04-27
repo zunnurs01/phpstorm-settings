@@ -13,7 +13,7 @@
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.php; *.css; *.js; *.html; *.scss,; *.htm" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.php; *.css; *.js; *.html; *.scss; *.htm; *.twig" />
     <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="SHOW_BREADCRUMBS" value="false" />
